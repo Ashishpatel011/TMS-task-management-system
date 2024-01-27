@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(33, 97, 136);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  background-color: #fff;
+  height: 12vh;
+  width: 101vw;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+#header h2 {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 38px;
+  font-weight: 600;
+  color: rgb(35, 131, 131);
+}
+.uname {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-left: 600px;
+}
+
+#lift {
+  margin-top: 50px;
+  width: 13vw;
+  height: 30vh;
+  display: inline-block;
+}
+
+#logout_link {
+  text-decoration: none;
+  color: black;
+}
+
+#lift table tr {
+  background-color: #0096ff;
+  color: #fff;
+  font-size: 18px;
+}
+
+#lift table tr:hover {
+  background-color: #d4f666;
+  font-size: 22px;
+}
+#right {
+  padding-top: 50px;
+  padding-left: 80px;
+  height: 75vh;
+  width: 75vw;
+  display: inline-block;
+  color: #fff;
+}
+#right h3 {
+  font-size: 2.5rem;
+}
+#right ul {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+@media (max-width: 477px) {
+  #header {
+    background-color: #fff;
+    height: 10vh;
+    width: 110vw;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+  }
+  #header h2 {
+    padding-left: 5px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .uname {
+    font-size: 11px;
+    margin-top: 3px;
+    margin-left: 20px;
+  }
+  #lift {
+    margin-top: 50px;
+    width: 20vw;
+    height: 30vh;
+  }
+  #right {
+    padding-top: 50px;
+    padding-left: 63px;
+    height: 75vh;
+    width: 87vw;
+    display: inline-block;
+    color: #fff;
+  }
+  #right h3 {
+    font-size: 17px;
+  }
+
+  #right ul {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

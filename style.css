@@ -1,0 +1,149 @@
+body {
+  background-image: url("img/wp.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* home page */
+.img {
+  height: 110px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+#home {
+  padding-left: 130px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.name {
+  padding-left: 70px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.n h1 {
+  padding-left: 40px;
+  color: #840aee;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.n p {
+  padding-left: 70px;
+  color: #137b17;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* user login */
+#ulogin {
+  background-color: #fff;
+  text-align: center;
+  margin: 0 500px;
+  border-radius: 5px;
+}
+#ulogin h2 {
+  background-color: #c3b900;
+  padding: 10px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+#ulogin a {
+  font-size: 17px;
+  font-weight: 500;
+}
+#ulogin a:hover {
+  color: red;
+}
+#pass {
+  margin-bottom: 25px;
+}
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 18px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+#submit {
+  margin-bottom: 30px;
+}
+
+/* admin login */
+#alogin {
+  background-color: rgb(165, 93, 150);
+  text-align: center;
+  margin: 0 500px;
+  border-radius: 5px;
+}
+#alogin h2 {
+  background-color: #3198c1;
+  padding: 10px;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+/* footer */
+.copyright {
+  background: #4c5465;
+  color: aliceblue;
+  position: fixed;
+  bottom: 0;
+  font-size: 22px;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 477px) {
+  #home {
+    margin-top: 30px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+  }
+  .img {
+    height: 65px;
+    width: 70px;
+  }
+
+  .name {
+    padding-left: 40px;
+  }
+  .n h1 {
+    padding-left: 20px;
+    font-size: 22px;
+  }
+
+  .n p {
+    padding-left: 40px;
+    font-size: 11px;
+  }
+
+  /* user login */
+  #ulogin {
+    background-color: #fff;
+    text-align: center;
+    margin: 0 50px;
+    border-radius: 5px;
+  }
+
+  /* admin login */
+  #alogin {
+    background-color: rgb(165, 93, 150);
+    text-align: center;
+    margin: 0 50px;
+    border-radius: 5px;
+  }
+}
